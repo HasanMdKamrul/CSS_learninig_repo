@@ -1,0 +1,13 @@
+/* Inheritance order */
+
+/* body > div > button */
+
+
+
+body{
+    color: red;
+}
+
+button{
+    color: inherit;
+}

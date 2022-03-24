@@ -1,0 +1,150 @@
+/* Things are common in all the buttons */
+a{
+    margin-top: 30px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+a:not(.link) {
+    padding: 12px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Primary button */
+.primary{
+    background-color: #1569D9;
+    color: white;
+}
+
+/* Primary button hover */
+.primary:hover{
+    background-color: #0f5cc0;
+}
+
+/* Secondary button */
+.secondary{
+    background-color: #545B62;
+    color: white;
+}
+
+/* Secondary button hover */
+.secondary:hover{
+    background-color: #44494e;
+}
+
+/* Success button */
+.success{
+    background-color: #218838;
+    color: white;
+}
+
+/* Success button hover */
+.success:hover{
+    background-color: #19742d;
+}
+
+/* Danger button */
+.danger{
+    background-color: #C82333;
+    color: white;
+}
+
+/* Danger button hover */
+.danger:hover{
+    background-color:#b41928;
+}
+
+/* Warning button */
+.warning{
+    background-color: #E0A800;
+    color: #000;
+}
+
+/* Warning button hover */
+.warning:hover{
+    background-color: #c79501;
+}
+
+/* Info button */
+.info{
+    background-color: #198496;
+    color: white;
+}
+
+/* Info button hover */
+.info:hover{
+    background-color: #107385;
+}
+
+/* Light button */
+.light{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+/* Light button hover */
+.light:hover{
+    background-color: #f3e7e7;
+}
+
+/* Dark button */
+.dark{
+    background-color: #32363b;
+    color: white;
+}
+
+/* Dark button hover */
+.dark:hover{
+    background-color: #23272B;
+}
+
+/* Link button */
+.primary{
+    background-color: #1569D9;
+    color: white;
+}
+
+/* Link button hover */
+.primary:hover{
+    background-color: #0f5cc0;
+}
+
+/* btn outline primary */
+.btn-outline-primary{
+    border: 1px solid #1569D9;
+    color: #1569D9;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover{
+    background-color: #0f5cc0;
+    color: white;
+}
+
+/* btn outline secondary */
+
+.btn-outline-secondary{
+    border: 1px solid #545B62;
+    color: #545B62;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #44494e;
+    color: white;
+}
+
+.btn-gra{
+    background-image: linear-gradient(to right, #c21500, #ffc500);
+    color: white;
+   
+}
+.btn-gra:hover{
+    background-image: linear-gradient(to right,#ffc500,#c21500); 
+}
+
+.btn-outline-gra{
+    background-image: linear-gradient(to right, #f857a6, #ff5858) !important;
+}
+.btn-outline-gra:hover{
+    background-image: linear-gradient(to right, #ff5858, #f857a6) !important;
+}

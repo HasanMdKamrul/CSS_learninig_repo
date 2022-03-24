@@ -1,0 +1,86 @@
+/*? Button tags css */
+
+a:not(.btn-dark,.btn-large-red){
+    text-decoration:none;
+    background-color:#1569D9 ;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 16px;
+    margin-top: 30px;
+    display: inline-block;
+}
+hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a:hover:not(.btn-large-red){
+    background-color: #1362ca;
+    color: #fff;
+}
+
+.btn-dark{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark:hover{
+    background-color:black !important;
+    color: #fff;
+}
+/* ? IICT--> Inline,ID,Class,Tag */
+.btn-large-red{
+    background-color: #5A6268;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+.btn-large-red:hover{
+    background-color: #474d52;
+    color: #fff;
+}
+.btn-small-blue{
+    padding: 5px 10px !important;
+}
+
+.btn-small-red{
+    padding: 5px 10px !important;
+    background-color: #5A6268 !important;
+}
+
+.btn-small-red:hover{
+    background-color: #474d52 !important;
+}
+.btn-block-blue{
+    display: block !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+}
+.btn-block-red{
+    display: block !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    background-color: #5A6268 !important;
+}
+.btn-block-red:hover{
+    background-color: #474d52 !important;
+}
+
+#activeid > a{
+    background-color:blue !important; ;
+    color: #fff !important;
+}
+
+.activelink{
+    background-color:#545B62!important; ;
+    color: #fff !important;
+}
+

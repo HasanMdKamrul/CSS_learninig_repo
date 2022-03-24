@@ -1,0 +1,65 @@
+ul.navigation{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+ul.navigation li{
+    
+    position: relative;
+    background-color: crimson;
+    padding: 20px;
+
+}
+
+ul.navigation li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+ul.navigation li:hover{
+    background-color: rgb(189, 10, 46);
+}
+
+#active{
+    background-color: rgb(189, 10, 46);
+}
+
+ul.navigation ul.dropdown {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    display: none;
+}
+
+ul.navigation li:hover .dropdown{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#goal_id{
+    position: relative;
+}
+
+ul.dropdown_2{
+    list-style: none;
+    position: absolute;
+    top: 0%;
+    left: 65%;
+    display: none;
+}
+
+ul.navigation li:hover .dropdown li:hover .dropdown_2{
+    display: block;
+}

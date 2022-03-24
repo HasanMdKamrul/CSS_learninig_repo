@@ -1,0 +1,63 @@
+/* 4 types of selectors */
+
+
+/* 1. Decendant Selector */
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(./CassandraPersonalUseRegular-3BjG.ttf);
+}
+
+div h1 {
+    color: blue;
+    text-align: center;
+}
+
+div p {
+    color: rgb(33, 194, 43);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+
+/*Child Selector*/
+
+div.child>p {
+    text-shadow: 2px 2px blueviolet;
+}
+
+div.parent>h1 {
+    font-family: 'CustomFont';
+    text-shadow: 2px 2px 5px rgb(150, 131, 167);
+}
+
+
+/*Adjacent Sibling Selector*/
+
+.parent h1+p {
+    text-transform: none;
+}
+
+.child h1+p {
+    text-transform: uppercase;
+}
+
+.child p+p {
+    text-transform: none;
+}
+
+
+/*General Sibling Selector*/
+
+.child h1~p {
+    text-transform: uppercase;
+}

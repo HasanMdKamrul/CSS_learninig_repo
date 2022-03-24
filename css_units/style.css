@@ -1,0 +1,36 @@
+/* * 2 types of units --> responsive and fixed */
+/* * Fixed Units--> px,pt,in,pc*/
+/* * Responsive Units--> rem,em,vw,vh,vmin,vmax,%*/ /* ? vw,vh,vmin,vmax --> viewport width,height,min,max */ 
+/* * We'll not talk about the vmin and vmax here */
+
+section{
+    width: 50vw;
+    height: 100vh;
+
+    background-color: antiquewhite;
+}
+
+main{
+    font-size: 16px;
+}
+
+.main__paragraph{
+    font-size: 2em;
+}
+.main__list{
+    font-size: 2em;
+}
+.main__list--ordered{
+    font-size: 1rem;
+}
+.percentage{
+   width: 50%;
+   height: 350px;
+   background-color: darkgreen;
+}
+
+.parcentage__inner{
+    width: 50%;
+    height: 50%;
+    background-color: darkblue;
+}

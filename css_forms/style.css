@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+main {
+    display: flex;
+}
+
+main > *{ 
+    flex-basis: 100%;
+}
+
+div.login-form{
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+div.form-text{
+    background-color: rgb(112, 153, 139);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+div div.login-heading-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+div.login-form div.social-icons .fa-facebook{
+    padding-right: 0.5rem;
+}
+div.login-form div.social-icons .fa-twitter{
+    padding-left: 0.5rem;
+}
+
+div div.other-text {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+div.input-fields{
+    padding: 0 0 1rem 1rem;
+}
+
+div.input-fields #email {
+    padding-right: 15rem;
+    margin-bottom: 0.3125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    background-color: #EEEEEE;
+}
+
+div.input-fields #password{
+    padding-right: 15rem;
+    margin-top: 0.3125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    background-color: #EEEEEE;
+}
+
+input[type="submit"] {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #FA4B2B;
+    border-radius: 1.2rem;
+    color: #FEE2FF;
+    margin-top: 0.7rem;
+    
+}
+div.form-text{
+    background-image: linear-gradient(to right, #FA464F,#FA416B);
+    color: #fff;
+}
+
+.heading-text {
+    display: flex ;
+    justify-content: center ;
+    justify-items: center ;
+    padding-top:5rem;
+}
+div.form-text p {
+    display: flex ;
+    justify-content: center ;
+    justify-items: center ;
+    padding-top: 1rem;
+}
+
+

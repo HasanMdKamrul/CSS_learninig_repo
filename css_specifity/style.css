@@ -1,0 +1,32 @@
+/* CSS Specifity*/
+/* I-> Inline, I-Id, C-class, T-Tag*/
+
+/*Calculation*/
+
+/* 0 0 0 0 */
+
+/*Score*/
+
+/* 0 0 0 1 */
+
+.head{
+    color: blue !important;
+    
+}
+
+/* 0 1 0 0*/
+#heading{
+    color: brown;
+}
+
+#pera_id{
+    color: brown;
+}
+
+.peragraph{
+    color: rgb(99, 200, 200);
+}
+
+div > div > div > div > div> p{
+    color: rgb(123, 78, 177);
+}

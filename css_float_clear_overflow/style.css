@@ -1,0 +1,23 @@
+/* Float ---> Things will be floated by this*/ 
+/* Clear ---> Things will be cleared by this*/
+/* Overflow ---> Things will be hidden by this*/
+
+img{
+    float: right;
+    background-color:orchid;
+    height: 100px;
+    
+}
+
+.first-p{
+    background-color: brown;
+    outline: 2px solid black;
+    overflow: scroll;
+}
+
+.second-p{
+    background-color: green;
+    outline: 2px solid black;
+    
+}
+

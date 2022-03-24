@@ -1,0 +1,25 @@
+/*div h1{
+    color: red ;
+}
+
+div > p{
+    color: blue;
+}
+
+div.main_class > p{
+    color: brown;
+} */
+
+
+/*h1 + p{
+    color:cornflowerblue
+} */
+
+
+#id-pera{
+    color: blue;
+}
+
+h1 ~ p{
+    color: red;
+}

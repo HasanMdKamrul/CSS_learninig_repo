@@ -1,0 +1,46 @@
+/*Universal selector*/
+
+* {
+    color: red;
+    text-align: center;
+}
+
+
+/* Tag Selector */
+
+h1 {
+    color: rgb(8, 25, 43);
+    font-family: jazz LET, fantasy;
+    font-size: 15px;
+}
+
+
+/* Class Selector */
+
+.paragraph {
+    color: rgb(222, 131, 12);
+    font-family: cambria;
+}
+
+
+/* ====== ID Selector ====== */
+
+#btn {
+    color: blueviolet;
+}
+
+
+/* Attribute Selector */
+
+[type] {
+    color: rgb(23, 11, 158);
+    animation-delay: 4ms;
+}
+
+[title="first"] {
+    color: black;
+}
+
+[title="second"] {
+    color: blue;
+}

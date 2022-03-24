@@ -1,0 +1,39 @@
+/* todo There are 4 types of positions in css */
+/* ?1.Absolute position --> Normal document flow , we can change with this absolute position */
+/* *2.Fixed Position --> Fixed position , we can't change document flow with this fixed position */
+/* ! 3. Relative Position --> Relative position , we can change things relative to this position */
+/* *4. Sticky Position*/
+
+body{
+    background-color: grey;
+}
+
+section{
+    height: 400px;
+    width: 500px;
+    margin:0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.child-1{
+    background-color: indianred;
+    width: 150px;
+    height: 150px;
+    position: absolute; /* **** Normal document flow te child-1  er j position silo ta r thakbe na ta tar porer position er jinish dokhol korbe*/
+   
+}
+
+.child-1{
+    position: fixed; /* ? Fixed position will change it self without the relative position */
+    bottom: 50%;
+    right: 0;
+}
+
+.child-2{
+    background-color: indigo;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    top: 10px;
+}

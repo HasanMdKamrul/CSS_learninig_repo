@@ -1,0 +1,25 @@
+table{
+    background-color: #336CA6;
+    padding:0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    color: #193653;
+    padding: 0.625rem;
+}
+
+tbody tr td{ color:#F7F7F7;
+            padding: 0.625rem;
+            text-align: center;
+            
+}
+
+
+tr{
+    border: 1px solid #26517C !important;
+}
+
+tr:hover{ background-color: #2c639b;
+}
