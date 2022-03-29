@@ -1,0 +1,52 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+
+/* **Base Css styles ** */ 
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(53, 98, 194);
+}
+
+
+
+nav ul li a{ 
+    text-decoration: none; 
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgb(8, 49, 138);
+}
+
+/* **Flex Styles */
+
+div.wrapper nav ul{ 
+    display: flex;
+    justify-content: center;
+    flex:1 1 0;
+    flex-wrap: wrap;
+  
+}
+
+
+div.wrapper nav ul li{ 
+   flex:1 1 0;
+}
+
+
+

@@ -1,0 +1,68 @@
+
+.container * {
+  flex-basis: 20%;
+}
+
+.container{
+    background-color: rgb(204, 216, 233);
+    border: 3px solid black;
+    height: 30vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch; /* cross axis */
+  /*  align-content: flex-start; /* cross axis */
+    justify-content: flex-start; /* Main axis */
+   
+}
+
+
+
+.child-1{
+    background-color: rgb(167, 42, 42);
+    min-height: 100px;
+    width: 50px;
+    
+  
+}
+
+.child-2{
+    background-color: rgb(34, 161, 17);
+    min-height: 150px;
+    width: 50px;
+    flex:1 1 20%;
+    order: -1;
+    align-self: stretch;
+}
+
+.child-3{
+    background-color: rgb(159, 190, 155);
+    min-height: 200px;
+    width: 50px;
+    flex:1 1 10%;
+ 
+}
+.child-4{
+    background-color: rgb(176, 87, 218);
+    min-height: 250px;
+    width: 50px;
+    flex: 1 1 20%;
+   
+ 
+}
+.child-5{
+    background-color: rgb(216, 159, 183);
+    min-height: 300px;
+    width: 50px;
+    flex: 1 1 15%;
+ 
+}
+
+.child-6{
+    background-color: rgb(126, 83, 167);
+    min-height: 350px;
+    width: 50px;
+    flex:1 1 5%;
+ 
+}
+
+

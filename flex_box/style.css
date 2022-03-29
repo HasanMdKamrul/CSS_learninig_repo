@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    gap: 4vh;
+}
+
+.container{
+    margin: 30px 20px;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.block{
+    display:flex;
+    
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(214, 183, 183);
+
+}
