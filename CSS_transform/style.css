@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*div{
+    background-color: rgb(88, 88, 173);
+    padding: 300px;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+    transition: all 3s ease-in-out;
+}
+div:hover{
+    color: #fff;
+    transform: rotate(-45deg);
+
+} */ 
+
+div.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+div.container{
+    background-image: linear-gradient(to right, #5f2c82, #49a09d);
+    padding: 150px;
+    transition: all 3s ease-in-out;
+    display: flex;
+    
+}
+
+div.container:hover{
+    background-image: linear-gradient(to left, #5f2c82, #49a09d);
+    transform: rotate(360deg);
+    border-radius: 50%;
+    color: #fff;
+}
