@@ -1,0 +1,43 @@
+:root{
+    --body-color: rgb(77, 173, 141);
+    --body-height: 100vh;
+    --center-align:center;
+    --body-width: 100vw;
+    --display: flex;
+    --padding: 3.125rem;
+    --bg-color: rgb(216, 194, 225);
+    --tx-color: #fff;
+    --tx-c-p: center;
+}
+
+div.container{
+    display: var(--display);
+}
+
+body{
+    background-color:var(--body-color);
+    height: var(--body-height);
+    width: var(--body-width);
+    display: var(--display);
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+
+}
+
+h1{ 
+    color: var(--color-text);
+    text-align: var(--center-align);
+    padding: var(--padding);
+    background-color: var(--bg-color);
+    color: var(--tx-color);
+}
+
+
+p{ 
+    color: var(--tx-color);
+    padding: var(--padding);
+    background-color: var(--bg-color);
+    text-align: var(--tx-c-p);
+    
+}
