@@ -1,0 +1,23 @@
+body{ 
+
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(56deg, blue 19.75%, rgba(166, 1, 6, 0.91) 55.46%, red 59.24%, rgb(168, 0, 255) 94.54%);
+    transition: all 0.5s ease-in-out;
+}
+
+div:hover{
+    transform: rotate(360deg) ;
+    border-radius: 50%;
+    background: linear-gradient(212deg, rgba(136,91,78,1) 7%, rgba(11,105,42,1) 27%, rgba(12,116,88,1) 53%, rgba(15,129,244,1) 74%, rgba(0,212,255,1) 100%);
+}
