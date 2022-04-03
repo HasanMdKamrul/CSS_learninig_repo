@@ -1,0 +1,84 @@
+/* ** link has 4 diffenent states 1.link 2. active 3. hover 4. visited */
+/*
+:root{
+    --padding: 10px;
+    --text-color: #fff;
+    --visit-color: red;
+    --height: 20px;
+    --width: 20px;
+}
+a:visited{ 
+    color: var(--visit-color);
+}
+
+
+input[type="checkbox"]:checked{
+    height: 50px;
+    width: 50px;
+}
+
+input[type="radio"]:checked{
+    height: 50px;
+    width: 50px;
+}
+
+input[type='text']:disabled{ 
+    background-color: rgb(196, 153, 153);
+}
+
+p:empty{ 
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--visit-color);
+}
+
+input[type='text']:enabled{ 
+    background-color: var(--visit-color);
+    color: var(--text-color);
+}
+
+li:last-of-type{ 
+    color: rgb(176, 38, 201);
+}
+
+
+#focus:focus{ 
+    background-color: yellow;
+}
+
+input[type='number']{
+    background-color: rgb(57, 57, 216);
+    color: #fff;
+}
+
+input[type="number"]:out-of-range{
+    background-color: rgb(77, 18, 82);
+    color: black;
+}
+
+p:not(#first){
+    color: orange;
+}
+
+
+li:nth-of-type(2n+1){
+    color: red;
+}
+
+#only-of-type:only-child
+{ color: black; }
+
+input[type="text"]:required{ color:yellow; 
+background-color: blue;}  */
+
+input:read-only{
+    background-color: rgb(52, 104, 104);
+}
+
+input[type='email']:valid{
+   color: blue;
+}
+
+p#p-first:target{ color:blue;}
+p#p-second:target{ color: red;}
+p#p-third:target{ color:yellow;}
