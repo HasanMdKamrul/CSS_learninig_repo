@@ -1,0 +1,28 @@
+p::first-line{
+    color:blue;
+    font-variant: small-caps;
+    background-color: beige;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+p::first-letter{
+    color:red;
+    font-size: x-large;
+}
+
+
+.page-header::before{
+   content: url(smiley.gif);
+}
+
+::marker{
+    color: rgb(143, 31, 218);
+}
+
+
+p::selection{
+    color: black;
+    background-color: yellow;
+}
+
+opacity

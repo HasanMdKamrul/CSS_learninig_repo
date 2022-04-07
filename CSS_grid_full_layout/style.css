@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+    height: 100vh;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+#container{
+    background-color: rgb(222, 222, 123);
+    height:50vh;
+    width:50vw;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+#container div{
+    padding: 30px;
+    color: #fff;
+    border: 1px solid black;
+}
+
+#container .header{
+    grid-column: 4/-1;
+    background-color: rgb(148, 148, 196);
+    color: #fff;
+}
+
+#container .header:hover{
+    background-color: rgb(102, 102, 198);
+}
+
+#container .footer{
+    grid-column: 1/-1;
+    background-color: rgb(64, 41, 109)
+}
+#container .footer:hover{
+    background-color: rgb(30, 12, 64)
+}
+
+#container .menu:hover{
+   
+    background-color:rgb(84, 84, 48);
+
+}
+#container .menu{
+    grid-column: 1/4;
+    grid-row: 1/ span 3;
+    background-color:rgb(183, 183, 95);
+
+}
+#container .content{
+    grid-column: 4/-1 ;
+    grid-row: 2/4;
+    background-color: rgb(81, 140, 120);
+}
+
+#container .content:hover{
+    background-color: rgb(53, 101, 85);
+}

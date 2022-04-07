@@ -1,0 +1,1 @@
+document.getElementById("extra").style.color = "red";
