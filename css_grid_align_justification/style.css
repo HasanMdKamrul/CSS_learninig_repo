@@ -1,0 +1,46 @@
+
+@media (min-width: 992px) { 
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: beige;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .container  div {
+        padding: 2rem;
+    }
+
+
+
+    div:nth-child(2n){
+        background-color: rgb(195, 147, 147)
+    }
+    div:nth-child(2n+1){
+        background-color:beige;
+    }
+    div.container{
+        background-color: rgb(235, 235, 240);
+        display:grid;
+        grid-template-columns: repeat(5,200px);
+        grid-auto-rows: 10rem;
+        height:100%;
+        justify-content: center;
+        align-content: center;
+       /* justify-content: space-evenly;
+        height: 100%;
+        align-content: space-evenly;
+        grid-gap:10px;
+        justify-items: center;
+        align-items: center; */
+    }
+
+    div.container div.seven{
+        align-self: stretch;
+        justify-self: end;
+    }
+
+
+ }
